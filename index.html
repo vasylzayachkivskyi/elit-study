@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Elit Study</title>
+  <link rel="stylesheet" href="css/lib/bootstrap.min.css">
+  <link rel="stylesheet" href="css/lib/slick.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <div class="pagewrapper">
+    <header class="header">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-6">
+            <div class="header__logo">
+              <a href="index.html">
+                <img src="img/logo.svg" alt="logotype">
+              </a>
+            </div>
+          </div>
+          <div class="col-6 d-flex justify-content-end align-items-center">
+            <div class="header__social">
+              <a href="#">
+                <svg width="34" height="34" viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <g clip-path="url(#clip0_60_506)">
+                    <path
+                      d="M17 0C13.6377 0 10.3509 0.997033 7.55526 2.86502C4.75962 4.733 2.58069 7.38804 1.294 10.4944C0.00730476 13.6007 -0.329352 17.0189 0.326597 20.3165C0.982546 23.6142 2.60164 26.6433 4.97913 29.0208C7.35663 31.3983 10.3857 33.0174 13.6834 33.6734C16.9811 34.3293 20.3992 33.9926 23.5056 32.706C26.6119 31.4193 29.267 29.2403 31.1349 26.4447C33.0029 23.6491 34 20.3623 34 17C34 12.4913 32.2089 8.1673 29.0208 4.97918C25.8327 1.79107 21.5086 0 17 0V0ZM21.3081 15.3895L21.0263 17.7583C21.0141 17.8682 20.9617 17.9697 20.879 18.0433C20.7964 18.1168 20.6895 18.1571 20.5789 18.1564H18.1184V25.1801C18.119 25.264 18.0864 25.3447 18.0277 25.4046C17.9691 25.4645 17.8891 25.4988 17.8052 25.5H15.3C15.2582 25.4994 15.217 25.4906 15.1787 25.4741C15.1404 25.4576 15.1057 25.4337 15.0767 25.4038C15.0476 25.3739 15.0247 25.3386 15.0093 25.2998C14.9938 25.261 14.9862 25.2196 14.9868 25.1779L15.0002 18.1564H13.1369C13.0183 18.1564 12.9045 18.1093 12.8206 18.0254C12.7367 17.9415 12.6896 17.8277 12.6896 17.7091V15.3425C12.6896 15.2239 12.7367 15.1101 12.8206 15.0262C12.9045 14.9423 13.0183 14.8951 13.1369 14.8951H14.9868V12.6001C14.9868 9.945 16.5682 8.5 18.8789 8.5H20.7735C20.8922 8.5 21.0059 8.54713 21.0898 8.63103C21.1737 8.71493 21.2209 8.82872 21.2209 8.94737V10.9404C21.2209 11.059 21.1737 11.1728 21.0898 11.2567C21.0059 11.3406 20.8922 11.3878 20.7735 11.3878H19.6126C18.3555 11.4079 18.1184 12.0096 18.1184 12.9088V14.8884H20.8742C20.9366 14.8898 20.998 14.9043 21.0545 14.9309C21.111 14.9575 21.1613 14.9956 21.2022 15.0428C21.243 15.09 21.2736 15.1452 21.2918 15.2049C21.3101 15.2646 21.3156 15.3275 21.3081 15.3895Z"
+                      fill="#262626" />
+                  </g>
+                  <defs>
+                    <clipPath id="clip0_60_506">
+                      <rect width="34" height="34" fill="white" />
+                    </clipPath>
+                  </defs>
+                </svg>
+              </a>
+              <a href="#">
+                <svg width="34" height="34" viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <g clip-path="url(#clip0_60_510)">
+                    <path
+                      d="M17 19.6865C18.4837 19.6865 19.6864 18.4837 19.6864 17.0001C19.6864 15.5164 18.4837 14.3136 17 14.3136C15.5163 14.3136 14.3135 15.5164 14.3135 17.0001C14.3135 18.4837 15.5163 19.6865 17 19.6865Z"
+                      fill="#262626" />
+                    <path
+                      d="M20.4358 10.2112H13.5642C12.6743 10.2112 11.8209 10.5647 11.1917 11.1939C10.5624 11.8232 10.2089 12.6766 10.2089 13.5664V20.4358C10.2089 21.3257 10.5624 22.1791 11.1917 22.8083C11.8209 23.4376 12.6743 23.7911 13.5642 23.7911H20.4358C21.3256 23.7911 22.1791 23.4376 22.8083 22.8083C23.4375 22.1791 23.791 21.3257 23.791 20.4358V13.5642C23.7904 12.6747 23.4367 11.8219 22.8075 11.1931C22.1783 10.5644 21.3253 10.2112 20.4358 10.2112ZM17 21.3976C16.1301 21.3981 15.2797 21.1405 14.5562 20.6576C13.8327 20.1746 13.2687 19.488 12.9355 18.6845C12.6023 17.8809 12.5149 16.9966 12.6843 16.1434C12.8538 15.2902 13.2724 14.5064 13.8874 13.8912C14.5023 13.276 15.2859 12.8569 16.139 12.687C16.9921 12.5172 17.8764 12.6041 18.6801 12.9369C19.4838 13.2697 20.1708 13.8333 20.6541 14.5566C21.1374 15.2798 21.3954 16.1301 21.3954 17C21.3942 18.1656 20.9308 19.2831 20.1068 20.1075C19.2829 20.9319 18.1656 21.3959 17 21.3976ZM21.4222 13.6895C21.207 13.6899 20.9965 13.6265 20.8174 13.5072C20.6383 13.3879 20.4986 13.2182 20.4161 13.0194C20.3335 12.8207 20.3118 12.6019 20.3537 12.3908C20.3955 12.1797 20.4991 11.9858 20.6513 11.8337C20.8035 11.6815 20.9974 11.5779 21.2085 11.536C21.4195 11.4942 21.6383 11.5159 21.837 11.5984C22.0358 11.681 22.2055 11.8207 22.3248 11.9998C22.4441 12.1789 22.5075 12.3894 22.5071 12.6046C22.5065 12.8921 22.392 13.1677 22.1887 13.3711C21.9854 13.5744 21.7098 13.6889 21.4222 13.6895Z"
+                      fill="#262626" />
+                    <path
+                      d="M17 0C13.6377 0 10.3509 0.997033 7.55526 2.86502C4.75962 4.733 2.58069 7.38804 1.294 10.4944C0.00730476 13.6007 -0.329352 17.0189 0.326597 20.3165C0.982546 23.6142 2.60164 26.6433 4.97913 29.0208C7.35663 31.3983 10.3857 33.0174 13.6834 33.6734C16.9811 34.3293 20.3992 33.9926 23.5056 32.706C26.6119 31.4193 29.267 29.2403 31.135 26.4447C33.0029 23.6491 34 20.3623 34 17C34 12.4913 32.2089 8.1673 29.0208 4.97918C25.8327 1.79107 21.5086 0 17 0V0ZM25.5 20.4358C25.4988 21.7785 24.9648 23.066 24.0154 24.0154C23.0659 24.9649 21.7785 25.4988 20.4358 25.5H13.5642C12.2216 25.4982 10.9345 24.9641 9.98519 24.0148C9.03585 23.0654 8.50173 21.7784 8.49995 20.4358V13.5642C8.50173 12.2216 9.03585 10.9346 9.98519 9.98523C10.9345 9.0359 12.2216 8.50178 13.5642 8.5H20.4358C21.7783 8.50178 23.0654 9.0359 24.0147 9.98523C24.9641 10.9346 25.4982 12.2216 25.5 13.5642V20.4358Z"
+                      fill="#262626" />
+                  </g>
+                  <defs>
+                    <clipPath id="clip0_60_510">
+                      <rect width="34" height="34" fill="white" />
+                    </clipPath>
+                  </defs>
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main class="main">
+
+      <section class="welcomescreen">
+        <img class="welcomescreen_bg" src="img/welcomescreen_bg.svg" alt="frame">
+        <img src="img/welcomescreen_arrow.svg" alt="arrow" class="welcomescreen_arrow">
+        <div class="container">
+          <div class="row ">
+            <div class="col-xl-7 col-lg-6">
+              <h1 class="welcomescreen__title">
+                <p>
+                  <span>Ako začať podnikať ak</span>
+                </p>
+                <br>
+                vlastníš len mobilný telefón?
+              </h1>
+              <div class="welcomescreen__form">
+                <form action="" class="form">
+                  <input class="welcomescreen__field" type="text" id="name" minlength="3" required
+                    placeholder="Meno a priezvisko*">
+                  <input class="welcomescreen__field" type="email" id="email"
+                    pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" required placeholder="E-mail">
+                  <input class="welcomescreen__field" type="tel" id="tel" pattern="[0-9]+" minlength="5" required
+                    placeholder="Telefónne číslo*">
+                  <input class="welcomescreen__field" type="text" id="sometext"
+                    placeholder="Prečo ste sa rozhodli zúčastniť v kurze?">
+                  <div class="welcomescreen__checkfield">
+                    <input type="checkbox" id="check1">
+                    <label for="check1">
+                      dávam súhlas so spracovaním osobných údajov vzmysle § 5 písm. a) a v zmysle § 14 zákona č. 18/2018
+                      Z. z. o ochrane osobných údajov a o zmene a doplnení niektorých zákonov
+                    </label>
+                  </div>
+                  <input class="form-btn" type="submit" value="Poslat’" disabled>
+                </form>
+              </div>
+            </div>
+            <div class="col-xl-5 col-lg-6 d-flex align-items-end justify-content-center">
+              <div class="welcomescreen__img">
+                <img src="img/welcomescreen_img.png" alt="image">
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="info">
+        <div class="container">
+          <div class="row justify-content-between">
+            <div class="col-xl-6 col-lg-5 order-2 order-lg-1">
+              <div class="info__bg">
+                <img src="img/info_frame.svg" alt="frame" class="info_frame">
+                <img src="img/info_img.png" alt="image" class="info__image">
+              </div>
+            </div>
+            <div class="col-lg-6  order-1 order-lg-2">
+              <div class="info__subtitle">
+                Kto organizuje bezplatné školenie "Ako začať podnikať, ak vlastníš iba mobilný telefón?"
+              </div>
+              <h2 class="info__title">
+                <p>
+                  <span>
+                    Developerská spoločnosť ELIT-BYT DEVELOPMENT, s. r. o.
+                  </span>
+                </p>
+              </h2>
+              <div class="info__content">
+                <div class="info__subtitle">
+                  Prečo sa jej konateľ, doc. Roman Frych, PhD. rozhodol vytvoriť tento odborný kurz zameraný na online
+                  formy podnikania?
+                </div>
+                <div class="info__content-row">
+                  <span>
+                    1
+                  </span>
+                  <p>
+                    Na vlastnej koži zažil, aké náročné je začať podnikať. S biznisom začínal koncom 90. rokov s
+                    požičanými 150 dolármi
+                  </p>
+                </div>
+                <div class="info__content-row">
+                  <span>
+                    2
+                  </span>
+                  <p>
+                    Za vyše 20 rokov v podnikaní vie, že dobrý nápad, odhodlanie a vôľa vytrvať sú základným kameňom
+                    úspechu. A vie tiež to, že dnes by mu pri jeho začiatkoch stačil aj mobilný telefón.
+                  </p>
+                </div>
+                <div class="info__content-row">
+                  <span>
+                    3
+                  </span>
+                  <p>
+                    Uvedomuje si, že Košice sú plné talentovaných
+                    mladých ľudí, ktorí si zaslúžia podať pomocnú ruku a objaviť v sebe podnikateľského ducha
+                  </p>
+                </div>
+              </div>
+
+            </div>
+          </div>
+          <div class="info__btn">
+            <img src="img/info_arrow.svg" alt="arrow" class="info__arrow">
+            <strong>
+              Patríš medzi nich?
+            </strong>
+            <p>
+              Tak na čo ešte čakáš?
+              Miesta v kurze „Ako začať podnikať, ak vlastníš
+              iba mobilný telefón?" sú ešte voľné.
+            </p>
+            <a href="#">
+              Zapísať sa do kurzu
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section class="mentors">
+        <div class="container">
+          <div class="mentors__inner">
+            <h2 class="mentors__title">
+              Naši mentori
+            </h2>
+            <div class="mentors__slider">
+              <div class="mentors__slider-wrapper">
+                <div class="mentors__slider-item">
+                  <div class="mentors__slider-img">
+                    <img src="img/slide_roman_frych.png" alt="slide">
+                  </div>
+                  <div class="mentors__slider-content active">
+                    <div class="mentors__slider-dropdown">
+                      <div class="mentors__slider-name">
+                        Roman Frych
+                      </div>
+                      <p>
+                        Majitel mladej marketingovej agentury MoveUp
+                      </p>
+                      <p>
+                        Majitel mladej marketingovej agentury MoveUp
+                      </p>
+                      <p>
+                        Majitel mladej marketingovej agentury MoveUp
+                      </p>
+                      <p>
+                        Majitel mladej marketingovej agentury MoveUp
+                      </p>
+                      <p>end</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="mentors__slider-wrapper">
+                <div class="mentors__slider-item">
+                  <div class="mentors__slider-img">
+                    <img src="img/slide_valerria.png" alt="slide">
+                  </div>
+                  <div class="mentors__slider-content active">
+                    <div class="mentors__slider-dropdown">
+                      <div class="mentors__slider-name">
+                        Valeria
+                      </div>
+                      <p>
+                        Majitel mladej marketingovej agentury MoveUp Majitel mladej marketingovej agentury MoveUp Majitel mladej marketingovej agentury MoveUp Majitel mladej marketingovej agentury MoveUp
+                      </p>
+                      <p>
+                        Majitel mladej marketingovej agentury MoveUp
+                      </p>
+                      <p>
+                        Majitel mladej marketingovej agentury MoveUp
+                      </p>
+                      <p>
+                        Majitel mladej marketingovej agentury MoveUp
+                      </p>
+                    </div>
+                   
+                  </div>
+                </div>
+              </div>
+              <div class="mentors__slider-wrapper">
+                <div class="mentors__slider-item">
+                  <div class="mentors__slider-img">
+                    <img src="img/slide_roman_frych.png" alt="slide">
+                  </div>
+                  <div class="mentors__slider-content active">
+                    <div class="mentors__slider-dropdown">
+                      <div class="mentors__slider-name">
+                        Roman Frych
+                      </div>
+                      <p>
+                        Majitel mladej marketingovej agentury MoveUp
+                      </p>
+                      <p>
+                        Majitel mladej marketingovej agentury MoveUp
+                      </p>
+                      <p>
+                        Majitel mladej marketingovej agentury MoveUp
+                      </p>
+                      <p>
+                        Majitel mladej marketingovej agentury MoveUp
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="mentors__slider-wrapper">
+                <div class="mentors__slider-item">
+                  <div class="mentors__slider-img">
+                    <img src="img/slide_valerria.png" alt="slide">
+                  </div>
+                  <div class="mentors__slider-content active">
+                    <div class="mentors__slider-dropdown">
+                      <div class="mentors__slider-name">
+                        Valeria
+                      </div>
+                      <p>
+                        Majitel mladej marketingovej agentury MoveUp Majitel mladej marketingovej agentury MoveUp Majitel mladej marketingovej agentury MoveUp Majitel mladej marketingovej agentury MoveUp
+                      </p>
+                      <p>
+                        Majitel mladej marketingovej agentury MoveUp
+                      </p>
+                      <p>
+                        Majitel mladej marketingovej agentury MoveUp
+                      </p>
+                      <p>
+                        Majitel mladej marketingovej agentury MoveUp
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+               <div class="mentors__slider-wrapper">
+                <div class="mentors__slider-item">
+                  <div class="mentors__slider-img">
+                    <img src="img/slide_roman_frych.png" alt="slide">
+                  </div>
+                  <div class="mentors__slider-content active">
+                    <div class="mentors__slider-dropdown">
+                      <div class="mentors__slider-name">
+                        Roman Frych
+                      </div>
+                      <p>
+                        Majitel mladej marketingovej agentury MoveUp
+                      </p>
+                      <p>
+                        Majitel mladej marketingovej agentury MoveUp
+                      </p>
+                      <p>
+                        Majitel mladej marketingovej agentury MoveUp
+                      </p>
+                      <p>
+                        Majitel mladej marketingovej agentury MoveUp
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="mentors__slider-wrapper">
+                <div class="mentors__slider-item">
+                  <div class="mentors__slider-img">
+                    <img src="img/slide_valerria.png" alt="slide">
+                  </div>
+                  <div class="mentors__slider-content active">
+                    <div class="mentors__slider-dropdown">
+                      <div class="mentors__slider-name">
+                        Valeria
+                      </div>
+                      <p>
+                        Majitel mladej marketingovej agentury MoveUp Majitel mladej marketingovej agentury MoveUp Majitel mladej marketingovej agentury MoveUp Majitel mladej marketingovej agentury MoveUp
+                      </p>
+                      <p>
+                        Majitel mladej marketingovej agentury MoveUp
+                      </p>
+                      <p>
+                        Majitel mladej marketingovej agentury MoveUp
+                      </p>
+                      <p>
+                        Majitel mladej marketingovej agentury MoveUp
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="slide_prev">
+              <svg width="18" height="31" viewBox="0 0 18 31" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path  d="M16.5 29L3 15L16.5 1.5" stroke="#E0E0E0" stroke-width="3"
+                  stroke-linecap="round" />
+              </svg>
+            </div>
+            <div class="slide_next">
+              <svg width="18" height="31" viewBox="0 0 18 31" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M2 1.5L15.5 15.5L2 29" stroke="#E0E0E0" stroke-width="3" stroke-linecap="round" />
+              </svg>
+            </div>
+          </div>
+        </div>
+      </section> 
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-sm-6">
+            <div class="footer__social">
+              <a href="#">
+                <svg width="34" height="34" viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <g clip-path="url(#clip0_60_506)">
+                    <path
+                      d="M17 0C13.6377 0 10.3509 0.997033 7.55526 2.86502C4.75962 4.733 2.58069 7.38804 1.294 10.4944C0.00730476 13.6007 -0.329352 17.0189 0.326597 20.3165C0.982546 23.6142 2.60164 26.6433 4.97913 29.0208C7.35663 31.3983 10.3857 33.0174 13.6834 33.6734C16.9811 34.3293 20.3992 33.9926 23.5056 32.706C26.6119 31.4193 29.267 29.2403 31.1349 26.4447C33.0029 23.6491 34 20.3623 34 17C34 12.4913 32.2089 8.1673 29.0208 4.97918C25.8327 1.79107 21.5086 0 17 0V0ZM21.3081 15.3895L21.0263 17.7583C21.0141 17.8682 20.9617 17.9697 20.879 18.0433C20.7964 18.1168 20.6895 18.1571 20.5789 18.1564H18.1184V25.1801C18.119 25.264 18.0864 25.3447 18.0277 25.4046C17.9691 25.4645 17.8891 25.4988 17.8052 25.5H15.3C15.2582 25.4994 15.217 25.4906 15.1787 25.4741C15.1404 25.4576 15.1057 25.4337 15.0767 25.4038C15.0476 25.3739 15.0247 25.3386 15.0093 25.2998C14.9938 25.261 14.9862 25.2196 14.9868 25.1779L15.0002 18.1564H13.1369C13.0183 18.1564 12.9045 18.1093 12.8206 18.0254C12.7367 17.9415 12.6896 17.8277 12.6896 17.7091V15.3425C12.6896 15.2239 12.7367 15.1101 12.8206 15.0262C12.9045 14.9423 13.0183 14.8951 13.1369 14.8951H14.9868V12.6001C14.9868 9.945 16.5682 8.5 18.8789 8.5H20.7735C20.8922 8.5 21.0059 8.54713 21.0898 8.63103C21.1737 8.71493 21.2209 8.82872 21.2209 8.94737V10.9404C21.2209 11.059 21.1737 11.1728 21.0898 11.2567C21.0059 11.3406 20.8922 11.3878 20.7735 11.3878H19.6126C18.3555 11.4079 18.1184 12.0096 18.1184 12.9088V14.8884H20.8742C20.9366 14.8898 20.998 14.9043 21.0545 14.9309C21.111 14.9575 21.1613 14.9956 21.2022 15.0428C21.243 15.09 21.2736 15.1452 21.2918 15.2049C21.3101 15.2646 21.3156 15.3275 21.3081 15.3895Z"
+                      fill="#E0E0E0" />
+                  </g>
+                  <defs>
+                    <clipPath id="clip0_60_506">
+                      <rect width="34" height="34" fill="white" />
+                    </clipPath>
+                  </defs>
+                </svg>
+              </a>
+              <a href="#">
+                <svg width="34" height="34" viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <g clip-path="url(#clip0_60_510)">
+                    <path
+                      d="M17 19.6865C18.4837 19.6865 19.6864 18.4837 19.6864 17.0001C19.6864 15.5164 18.4837 14.3136 17 14.3136C15.5163 14.3136 14.3135 15.5164 14.3135 17.0001C14.3135 18.4837 15.5163 19.6865 17 19.6865Z"
+                      fill="#E0E0E0" />
+                    <path
+                      d="M20.4358 10.2112H13.5642C12.6743 10.2112 11.8209 10.5647 11.1917 11.1939C10.5624 11.8232 10.2089 12.6766 10.2089 13.5664V20.4358C10.2089 21.3257 10.5624 22.1791 11.1917 22.8083C11.8209 23.4376 12.6743 23.7911 13.5642 23.7911H20.4358C21.3256 23.7911 22.1791 23.4376 22.8083 22.8083C23.4375 22.1791 23.791 21.3257 23.791 20.4358V13.5642C23.7904 12.6747 23.4367 11.8219 22.8075 11.1931C22.1783 10.5644 21.3253 10.2112 20.4358 10.2112ZM17 21.3976C16.1301 21.3981 15.2797 21.1405 14.5562 20.6576C13.8327 20.1746 13.2687 19.488 12.9355 18.6845C12.6023 17.8809 12.5149 16.9966 12.6843 16.1434C12.8538 15.2902 13.2724 14.5064 13.8874 13.8912C14.5023 13.276 15.2859 12.8569 16.139 12.687C16.9921 12.5172 17.8764 12.6041 18.6801 12.9369C19.4838 13.2697 20.1708 13.8333 20.6541 14.5566C21.1374 15.2798 21.3954 16.1301 21.3954 17C21.3942 18.1656 20.9308 19.2831 20.1068 20.1075C19.2829 20.9319 18.1656 21.3959 17 21.3976ZM21.4222 13.6895C21.207 13.6899 20.9965 13.6265 20.8174 13.5072C20.6383 13.3879 20.4986 13.2182 20.4161 13.0194C20.3335 12.8207 20.3118 12.6019 20.3537 12.3908C20.3955 12.1797 20.4991 11.9858 20.6513 11.8337C20.8035 11.6815 20.9974 11.5779 21.2085 11.536C21.4195 11.4942 21.6383 11.5159 21.837 11.5984C22.0358 11.681 22.2055 11.8207 22.3248 11.9998C22.4441 12.1789 22.5075 12.3894 22.5071 12.6046C22.5065 12.8921 22.392 13.1677 22.1887 13.3711C21.9854 13.5744 21.7098 13.6889 21.4222 13.6895Z"
+                      fill="#E0E0E0" />
+                    <path
+                      d="M17 0C13.6377 0 10.3509 0.997033 7.55526 2.86502C4.75962 4.733 2.58069 7.38804 1.294 10.4944C0.00730476 13.6007 -0.329352 17.0189 0.326597 20.3165C0.982546 23.6142 2.60164 26.6433 4.97913 29.0208C7.35663 31.3983 10.3857 33.0174 13.6834 33.6734C16.9811 34.3293 20.3992 33.9926 23.5056 32.706C26.6119 31.4193 29.267 29.2403 31.135 26.4447C33.0029 23.6491 34 20.3623 34 17C34 12.4913 32.2089 8.1673 29.0208 4.97918C25.8327 1.79107 21.5086 0 17 0V0ZM25.5 20.4358C25.4988 21.7785 24.9648 23.066 24.0154 24.0154C23.0659 24.9649 21.7785 25.4988 20.4358 25.5H13.5642C12.2216 25.4982 10.9345 24.9641 9.98519 24.0148C9.03585 23.0654 8.50173 21.7784 8.49995 20.4358V13.5642C8.50173 12.2216 9.03585 10.9346 9.98519 9.98523C10.9345 9.0359 12.2216 8.50178 13.5642 8.5H20.4358C21.7783 8.50178 23.0654 9.0359 24.0147 9.98523C24.9641 10.9346 25.4982 12.2216 25.5 13.5642V20.4358Z"
+                      fill="#E0E0E0" />
+                  </g>
+                  <defs>
+                    <clipPath id="clip0_60_510">
+                      <rect width="34" height="34" fill="white" />
+                    </clipPath>
+                  </defs>
+                </svg>
+              </a>
+            </div>
+          </div>
+          <div class="col-sm-6 d-flex justify-content-sm-end">
+            <div class="footer__mail">
+              <a href="mailto:elitstuding@gmail.com">elitstuding@gmail.com</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </footer>
+  </div>
+
+
+  <script src="js/lib/jquery.js"></script>
+  <script src="js/lib/slick.min.js"></script>
+  <script src="js/main.js"></script>
+
+
+</body>
+
+</html>
